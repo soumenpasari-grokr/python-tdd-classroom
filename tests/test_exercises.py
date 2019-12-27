@@ -24,3 +24,6 @@ class TestExercise(unittest.TestCase):
 
     def tearDown(self):
         pass   # If needed, do final unstubbing/unmocking here, like calling unittest.unstub()
+
+if __name__ == '__main__':
+    unittest.main()
